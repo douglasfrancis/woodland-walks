@@ -22,7 +22,7 @@
 
 #head-img{
   background-color: #edeae4;
-  height: 60vh;
+  
   width: 100vw;
   background-position: center;
   background-size: cover;
@@ -81,7 +81,7 @@ nav{
 }
 
 #nav-logo{
-  
+  margin: 175px 0 75px 0;
   opacity: 0.8;
   max-width: 90%;
   border-radius: 3px;
