@@ -26,7 +26,7 @@ export default function Prices() {
         </tr>
       </table>
 
-      <h3>Methods of payment</h3>
+      <h3 style={{marginTop: '3rem'}}>Methods of payment</h3>
       <p>Cash/Bank Transfer/Paypal</p>
     </div>
   )

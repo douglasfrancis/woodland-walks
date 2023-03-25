@@ -10,7 +10,6 @@ export default function Contact() {
     const emailRef = useRef();
     const breedRef = useRef();
     const numberRef = useRef();
-    const serviceRef = useRef();
     const msgRef = useRef();
 
     const [ loading, setLoading ] = useState(false)
@@ -38,7 +37,7 @@ export default function Contact() {
     <div id='contact' className='white'>
       <h1>Contact</h1>
 
-      <p>For extended stays and other services we have partnered up with <a href='https://uphillndowndale.co.uk/'>Up Hill 'n' Down Dale</a></p>
+      <p>For extended stays and other services we have partnered up with <a style={{fontWeight:'bold', color: '#545139', fontSize: '0.9rem', textDecoration:'underline'}} href='https://uphillndowndale.co.uk/'>Up Hill 'n' Down Dale</a></p>
       <p>All other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
 
       <form ref={formRef} onSubmit={sendEmail}>
@@ -46,17 +45,6 @@ export default function Contact() {
         <input placeholder='Number' ref={numberRef} name='Number'/>
         <input placeholder='Email Address' ref={emailRef} name='Email'/>
         <input placeholder='Dog Breed' ref={breedRef} name='Breed'/>
-        <select ref={serviceRef} name='Service'>
-          <option>Service Interested In</option>
-          <option>Doggie Day Care</option>
-          <option>Part Day Care</option>
-          <option>Home Visits</option>
-          <option>Overnight Stays</option>
-          <option>24hr Stays</option>
-          <option>Weekly Stays</option>
-          <option>Taxi Service</option>
-          <option>Walking</option>
-        </select>
         <textarea ref={msgRef} placeholder="Message" name='Msg'></textarea>
         <button id='submit-btn' type='submit' disabled={loading}>{loading ? "Sending..." : "Submit"}</button>
       </form>
