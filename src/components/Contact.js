@@ -37,8 +37,8 @@ export default function Contact() {
     <div id='contact' className='white'>
       <h1>Contact</h1>
 
-      <p>For extended stays and other services we have partnered up with <a style={{fontWeight:'bold', color: '#545139', fontSize: '0.9rem', textDecoration:'underline'}} href='https://uphillndowndale.co.uk/'>Up Hill 'n' Down Dale</a></p>
-      <p>All other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+      <p>For extended stays and other services we have partnered up with <a style={{fontWeight:'bold', color: '#545139', fontSize: '0.9rem', textDecoration:'underline'}} target='_blank' href='https://uphillndowndale.co.uk/'>Up Hill 'n' Down Dale</a></p>
+      <p>Dog walking in Congleton, home visits or all other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
 
       <form ref={formRef} onSubmit={sendEmail}>
         <input placeholder='Name' ref={nameRef} name='Name'/>

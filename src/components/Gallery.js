@@ -16,18 +16,18 @@ export default function Gallery() {
       <h1>Gallery</h1>
 
       <div id='gallery-container'>
-        <img className='gallery-img' src={winter} alt='Winter'/>
-        <img className='gallery-img' src={tilly} alt='Friends'/>
-        <img className='gallery-img' src={canal} alt='Canal'/>
-        <img className='gallery-img' src={two} alt='Two Dogs'/>
+        <img className='gallery-img' src={winter} alt='Winter dog walk congleton'/>
+        <img className='gallery-img' src={tilly} alt='Westie'/>
+        <img className='gallery-img' src={canal} alt='Canal dog walk congleton'/>
+        <img className='gallery-img' src={two} alt='Two Dogs dog walk Congleton'/>
 
         <img className='gallery-img' src={field} alt='Field'/>
-        <img className='gallery-img' src={cloud} alt='Cloud'/>
-        <img className='gallery-img' src={big} alt='Big dogs'/>
+        <img className='gallery-img' src={cloud} alt='Cloud dog walk congleton'/>
+        <img className='gallery-img' src={big} alt='large dog walks congleton'/>
 
-        <img className='gallery-img' src={car} alt='Tilly in car' style={{objectPosition:'top'}}/>
+        <img className='gallery-img' src={car} alt='westie dog walk congleton' style={{objectPosition:'top'}}/>
 
-        <img className='gallery-img' src={bonnie} alt='Bonnie'/>
+        <img className='gallery-img' src={bonnie} alt='Labrador dog walk Congleton'/>
 
       </div>
     </div>
