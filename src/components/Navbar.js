@@ -17,7 +17,7 @@ export default function Navbar() {
 
 
         <div id='socials'>
-          <a href='https://www.facebook.com' target='_blank'><img className='social-icon' src={facebook} alt='facebook'/></a>
+          <a href='https://www.facebook.com/profile.php?id=100092151854429' target='_blank'><img className='social-icon' src={facebook} alt='facebook'/></a>
           <a href='https://www.instagram.com' target='_blank'><img className='social-icon' src={insta} alt='instagram'/></a>
 
         </div>
